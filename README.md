@@ -2,7 +2,7 @@
 
 ## Clone project
 
-git clone git@github.com:ArthurDorokin/impulse.git
+git clone git@github.com:ArthurDorokin/impulse-test.git
 
 ## Setup project
 
