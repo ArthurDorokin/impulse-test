@@ -198,6 +198,12 @@ h1 {
   display: none;
 }
 
+@media (min-width: 1266px) {
+  .wrapVariantAnswer .variantAnswer:hover {
+    background: url("./assets/img/hover.svg") no-repeat;
+  }
+}
+
 @media (max-width: 1265px) {
   .wrapVariantAnswer .variantAnswer:nth-child(2) {
     margin-bottom: 32px;
