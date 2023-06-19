@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "standard-with-typescript",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-console": 0,
+        "no-empty": 0,
+        "no-irregular-whitespace": 0,
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
+    }
+}
