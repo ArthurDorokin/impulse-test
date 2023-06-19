@@ -227,21 +227,17 @@ h1 {
     background: url("./assets/img/inactive-mob.svg") no-repeat;
   }
 
-  .wrapVariantAnswer .variantAnswer.selected {
+  .wrapVariantAnswer .variantAnswer:hover {
     background: url("./assets/img/selected-mob.svg") no-repeat;
+    cursor: pointer;
   }
 
-  .wrapVariantAnswer .variantAnswer.correct {
-    background: url("./assets/img/correct-mob.svg") no-repeat;
-  }
-
-  .wrapVariantAnswer .variantAnswer.wrong {
+  .wrapVariantAnswer .variantAnswer:hover.wrong {
     background: url("./assets/img/wrong-mob.svg") no-repeat;
   }
 
-  .wrapVariantAnswer .variantAnswer:hover {
-    background: url("./assets/img/inactive-mob.svg") no-repeat;
-    cursor: pointer;
+  .wrapVariantAnswer .variantAnswer:hover.correct {
+    background: url("./assets/img/correct-mob.svg") no-repeat;
   }
 
   .questionBlock {
