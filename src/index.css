@@ -131,6 +131,7 @@ h1 {
   background: url("./assets/img/inactive.svg") no-repeat;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 .wrapVariantAnswer .variantAnswer.inactive {
@@ -153,10 +154,6 @@ h1 {
   background: url("./assets/img/wrong.svg") no-repeat;
 }
 
-.wrapVariantAnswer .variantAnswer:hover {
-  background: url("./assets/img/hover.svg") no-repeat;
-  cursor: pointer;
-}
 .wrapVariantAnswer .variantAnswer:nth-child(1) {
   margin-bottom: 32px;
 }
@@ -227,17 +224,16 @@ h1 {
     background: url("./assets/img/inactive-mob.svg") no-repeat;
   }
 
-  .wrapVariantAnswer .variantAnswer:hover {
+  .wrapVariantAnswer .variantAnswer.selected {
     background: url("./assets/img/selected-mob.svg") no-repeat;
-    cursor: pointer;
   }
 
-  .wrapVariantAnswer .variantAnswer:hover.wrong {
-    background: url("./assets/img/wrong-mob.svg") no-repeat;
-  }
-
-  .wrapVariantAnswer .variantAnswer:hover.correct {
+  .wrapVariantAnswer .variantAnswer.correct {
     background: url("./assets/img/correct-mob.svg") no-repeat;
+  }
+
+  .wrapVariantAnswer .variantAnswer.wrong {
+    background: url("./assets/img/wrong-mob.svg") no-repeat;
   }
 
   .questionBlock {
